@@ -1,0 +1,76 @@
+/* @media(max-width:48em){
+  .section-one{
+    background-size: cover ;
+  }
+ 
+
+  .header a img{
+    width: 80px !important;
+  }
+
+
+  .nav ul a.Request-quote{
+    font-size: .8rem;
+    padding: 1rem;
+  }
+
+
+  .section-one .nav li{
+    padding: 1rem;
+    font-size:1rem;   
+    color: red;
+  }
+
+  .top-nav{
+    width: 90%;
+    padding-bottom: .5rem;
+  }
+  .nav{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+  }
+
+} */
+
+@media(max-width:50em){
+
+  .section-two{
+    padding-bottom: 5rem;
+  }
+
+  .section-two .container-content .col-6 h3{
+    font-size: 1.6rem;
+    
+  }
+  .section-two .container-content .col-6 p{
+    font-size: 1.2rem;
+  }
+
+
+  .grid-section .grid--4-col{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-three .col-6 img{
+    width: 100%;
+  }
+  
+  .section-three .col-6 h2{
+    font-size: 1rem;
+  }
+
+  .row{
+    background-color: red;
+    display: inline !important;
+    width: 100%;
+  }
+
+  .row .col-6{
+    width: 100%;
+  }
+
+}
