@@ -38,6 +38,19 @@
 
 @media(max-width:23em){
 
+  .container-content{
+    width: 100% !important;
+  }
+
+  .col-8 h1{
+    font-size: 1.2rem;
+  }
+
+  .col-8 p{
+    font-size: .7rem !important;
+  }
+
+
   .section-two{
     padding-bottom: 5rem;
   }
@@ -52,7 +65,7 @@
 
 
   .grid-section .grid--4-col{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .section-three .col-6 img{
@@ -72,5 +85,6 @@
   .row .col-6{
     width: 100%;
   }
+
 
 }
