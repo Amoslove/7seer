@@ -50,17 +50,15 @@
 
   .col-8 h1{
     font-size: 2.2rem;
-    padding-left: 4rem;
   }
 
   .col-8 p{
     font-size: .7rem !important;
-    padding-left: 5rem;
   }
 
-  .col-6 p{
+  /* .col-6 p{
     padding-left: 5rem;
-  }
+  } */
 
 
   .section-two{
@@ -68,11 +66,13 @@
   }
 
   .section-two .container-content .col-6 h3{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     
   }
   .section-two .container-content .col-6 p{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
 
@@ -90,7 +90,9 @@
 
   .section-three  .col-6 h2{
     font-size: 1.6rem !important;
-    padding-left: 5rem;
+  }
+  .section-three  .col-6 p{
+    font-size: .7rem !important;
   }
   
   .section-three  .col-6 img{
@@ -113,5 +115,16 @@
     width: 100% !important;
   }
 
+
+  .section-5 .col-8-row{
+    display: block !important;
+  }
+
+  .section-5 form .col-12 input{
+    width: 330px !important;
+  }
+  .section-5 form .col-12 textarea{
+    width: 250px !important;
+  }
 
 }
