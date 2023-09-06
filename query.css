@@ -46,6 +46,7 @@
     width: 100% !important;
     padding-top: 40% !important;
     letter-spacing: 0 !important;
+    padding: .5rem !important;
   }
 
   .col-8 h1{
@@ -84,15 +85,12 @@
     width: 100%;
   }
   
-  .section-three .col-6 h2{
-    font-size: 1rem;
-  }
 
   .section-three  .col-6 h2{
-    font-size: 1.6rem !important;
+    font-size: 1.4rem !important;
   }
   .section-three  .col-6 p{
-    font-size: .7rem !important;
+    font-size: .9rem !important;
   }
   
   .section-three  .col-6 img{
@@ -115,9 +113,16 @@
     width: 100% !important;
   }
 
+  .section-four{
+    padding-bottom: 0 !important;
+  }
+
 
   .section-5 .col-8-row{
-    display: block !important;
+    display: inline-flex !important;
+  }
+  .section-5 .col-8 form input{
+    width: 300px !important;
   }
 
   .section-5 form .col-12 input{
