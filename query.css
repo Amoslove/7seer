@@ -36,7 +36,7 @@
 
 } */
 
-@media(max-width:360px){
+@media(max-width:23em){
 
   .section-two{
     padding-bottom: 5rem;
