@@ -52,10 +52,12 @@
   .col-8 h1{
     font-size: 2rem;
     padding-top: 7rem;
+    padding-left: 1rem;
   }
 
   .col-8 p{
     font-size: .9rem !important;
+    padding-left: 1rem;
   }
 
   /* .col-6 p{
@@ -68,13 +70,14 @@
   }
 
   .section-two .container-content .col-6 h3{
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-top: 4rem;
     padding-bottom: 2rem;
     
   }
   .section-two .container-content .col-6 p{
     font-size: 1rem;
+    padding-left: 1rem;
   }
 
 
@@ -89,11 +92,11 @@
 
   .section-three  .col-6 h2{
     font-size: 1.4rem !important;
-    padding-left: .5rem !important;
+    padding-left: 1rem;
   }
   .section-three  .col-6 p{
     font-size: .9rem !important;
-    padding-left: .5rem !important;
+    padding-left: 1rem;
   }
   
   .section-three  .col-6 img{
@@ -121,26 +124,30 @@
     padding-bottom: 0 !important;
   }
 
+  .section-four .col-6 .fa-arrow-right{
+    right:5rem !important;
+  }
+
 
   .section-5 .col-8-row{
     display: block !important;
   }
   .section-5 .col-12 h1{
-    padding-left: .5rem;
+    padding-left: 1rem;
   }
   
   .section-5 .col-12 p{
-    padding-left: .5rem;
+    padding-left: 1rem;
   }
   .section-5 .col-8 form input{
-    width: 300px !important;
+    width: 100% !important;
   }
 
   .section-5 form .col-12 input{
-    width: 330px !important;
+    width: 100% !important;
   }
   .section-5 form .col-12 textarea{
-    width: 250px !important;
+    width: 100% !important;
   }
 
   .section-5 .col-8 .request{
