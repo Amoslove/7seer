@@ -50,12 +50,12 @@
   }
 
   .col-8 h1{
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-top: 7rem;
   }
 
   .col-8 p{
-    font-size: .7rem !important;
+    font-size: .9rem !important;
   }
 
   /* .col-6 p{
@@ -83,15 +83,17 @@
   }
 
   .section-three .col-6 img{
-    width: 100%;
+    width: 100% !important;
   }
   
 
   .section-three  .col-6 h2{
     font-size: 1.4rem !important;
+    padding-left: .5rem !important;
   }
   .section-three  .col-6 p{
     font-size: .9rem !important;
+    padding-left: .5rem !important;
   }
   
   .section-three  .col-6 img{
@@ -114,13 +116,21 @@
     width: 100% !important;
   }
 
+
   .section-four{
     padding-bottom: 0 !important;
   }
 
 
   .section-5 .col-8-row{
-    display: inline-flex !important;
+    display: block !important;
+  }
+  .section-5 .col-12 h1{
+    padding-left: .5rem;
+  }
+  
+  .section-5 .col-12 p{
+    padding-left: .5rem;
   }
   .section-5 .col-8 form input{
     width: 300px !important;
@@ -131,6 +141,33 @@
   }
   .section-5 form .col-12 textarea{
     width: 250px !important;
+  }
+
+  .section-5 .col-8 .request{
+    padding: .5rem !important;
+    width:30% !important;
+  }
+
+  .footer-content{
+    width: 100% !important;
+    margin:  0 !important;
+    padding: 0 !important;
+  }
+
+  .footer .row .links{
+    text-align: center !important;
+    padding-top: 0 !important;
+  }
+  .footer .row .logo{
+    text-align: center !important;
+    margin-bottom: 0 !important;
+    padding-top: 1rem;
+  }
+
+  .footer .col-3 p{
+    text-align: center !important;
+    padding-top: 0 !important;
+
   }
 
 }
