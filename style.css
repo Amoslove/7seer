@@ -60,7 +60,6 @@ body {
   justify-content: space-between;
   padding-top: 1.2rem;
   position: fixed;
-  /* background-color: #000; */
 }
 
 .top-nav {
@@ -108,6 +107,16 @@ body {
 .nav ul a.Request-quote:hover {
   background-color: #fff;
   color: rgb(42, 178, 232);
+}
+
+.btn-nav{
+  width: 5%;
+  background:none;
+}
+
+.menu{
+  background-color: red;
+
 }
 
 .row {
